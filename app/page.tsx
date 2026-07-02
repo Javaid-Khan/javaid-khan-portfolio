@@ -144,7 +144,7 @@ export default function PortfolioPage() {
               </div>
               <div className="absolute left-0 top-10 hidden w-48 animate-float rounded-2xl border border-border bg-white p-4 shadow-card dark:bg-white/95 sm:block">
                 <Image
-                  src="/images/jkhan-design-logo.png"
+                  src="/images/jkhan-design-logo.jpg"
                   alt="JK Design logo"
                   width={320}
                   height={120}
@@ -347,7 +347,7 @@ function SiteHeader({
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
         <Link href="#home" className="flex items-center gap-3" onClick={onNavClick}>
           <span className="grid h-11 w-11 place-items-center overflow-hidden rounded-xl bg-white p-1 shadow-glow">
-            <Image src="/images/jkhan-design-logo.png" alt="JK Design" width={96} height={48} className="h-auto w-full object-contain" />
+            <Image src="/images/jkhan-design-logo.jpg" alt="JK Design" width={96} height={48} className="h-auto w-full object-contain" />
           </span>
           <span className="font-black leading-tight">
             Javaid Khan
